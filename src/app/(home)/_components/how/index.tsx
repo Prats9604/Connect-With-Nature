@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const How = () => {
   return (
-    <div className="flex flex-col md:flex-row mt-[510px] sm:mt-[900px] md:mt-40 bg-[#012527]">
+    <div className="flex flex-col md:flex-row mt-[510px] sm:mt-[700px] md:mt-20 lg:mt-40 bg-[#012527]">
       <Image
         src="/Images/how/HowLeft.png"
         height={3100}
