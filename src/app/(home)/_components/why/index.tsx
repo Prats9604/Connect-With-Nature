@@ -32,7 +32,7 @@ const Why = () => {
 
         <div className="flex flex-col gap-8 md:gap-0 px-8 sm:px-10 md:px-0 md:w-2/5 bg-[#1C3F43] md:justify-between pt-12">
           <Image
-            src="/Images/why/WhyHero.png"
+            src="/Images/why/WhyHero2.png"
             height={3276.8}
             width={2185.6}
             alt="Nature Image"

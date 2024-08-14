@@ -152,7 +152,7 @@ const How = () => {
             </div>
           </div>
           <Image
-            src="/Images/how/How1.png"
+            src="/Images/how/How3.png"
             height={1140}
             width={760}
             alt="Nature Image"
@@ -200,7 +200,7 @@ const How = () => {
             </div>
           </div>
           <Image
-            src="/Images/how/How1.png"
+            src="/Images/how/How4.png"
             height={1140}
             width={760}
             alt="Nature Image"
