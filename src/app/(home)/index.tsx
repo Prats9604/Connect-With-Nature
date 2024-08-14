@@ -10,7 +10,7 @@ const Home = () => {
       <div>
         <Nature />
       </div>
-      {/* <div>
+      <div>
         <Why />
       </div>
       <div>
@@ -18,7 +18,7 @@ const Home = () => {
       </div>
       <div>
         <Where />
-      </div> */}
+      </div>
     </>
   );
 };
