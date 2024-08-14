@@ -7,10 +7,12 @@ import Where from "./_components/where";
 const Home = () => {
   return (
     <>
-      <Nature />
-      <Why />
-      <How />
-      <Where />
+      <div>
+        <Nature />
+        <Why />
+        <How />
+        <Where />
+      </div>
     </>
   );
 };
