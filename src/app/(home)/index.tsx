@@ -9,8 +9,14 @@ const Home = () => {
     <>
       <div>
         <Nature />
+      </div>
+      <div>
         <Why />
+      </div>
+      <div>
         <How />
+      </div>
+      <div>
         <Where />
       </div>
     </>
