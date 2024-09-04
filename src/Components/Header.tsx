@@ -16,23 +16,24 @@ const Header: React.FC = () => {
   return (
     <header className="fixed top-0 right-0 md:bg-[#012224] text-white z-50">
       <nav className="flex items-center h-full">
-        <div className="hidden md:flex flex-grow justify-center gap-4">
+        <div className="hidden md:flex flex-grow justify-center gap-8">
           {navItems.map((item) => (
             <Link key={item.name} href={item.href}>
               <span className="flex pt-8 pb-4 items-center px-4 hover:text-gray-300 cursor-pointer">
                 {item.name}
               </span>
             </Link>
-          ))} 
+          ))}
         </div>
         <div
-          className={`flex md:hidden flex-col items-center space-y-1 cursor-pointer ${
+          className={`flex md:hidden flex-col items-start space-y-1.5 cursor-pointer p-6 ${
             isOpen ? "bg-[#012224]" : ""
           }`}
           onClick={() => setIsOpen(!isOpen)}
         >
-          <div className="w-6 h-0.5 bg-white"></div>
-          <div className="w-6 h-0.5 bg-white"></div>
+          {/* <div className="w-8 h-0.5 bg-white rounded-full"></div> */}
+          <div className="w-6 h-0.5 bg-white rounded-full"></div>
+          <div className="w-8 h-0.5 bg-white rounded-full"></div>
         </div>
       </nav>
       <div
